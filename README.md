@@ -1,4 +1,6 @@
-freeCodeCamp's curriculum is a self-paced, free program designed to teach coding and web development skills. It focuses on practical skills like HTML, CSS, JavaScript, and various libraries, with a structured approach and a wide range of certifications. The curriculum also emphasizes community involvement and contributing to open-source projects. 
+freeCodeCamp's curriculum is a self-paced, free program designed to teach coding and web development skills. It focuses on practical skills like HTML, CSS, JavaScript, and various libraries, with a structured approach and a wide range of certifications. 
+
+The curriculum also emphasizes community involvement and contributing to open-source projects. 
 Here's a more detailed breakdown:
 Core Curriculum:
 Includes certifications like Quality Assurance, Scientific Computing with Python, Data Analysis with Python, and Information Security. 
