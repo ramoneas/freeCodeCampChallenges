@@ -21,7 +21,7 @@ def get_min(input, matrix):
     return [np.min(matrix, axis=0).tolist(), np.min(matrix, axis=1).tolist(), np.min(input).tolist()]
 
 
-def summatory(input, matrix):
+def summary(input, matrix):
     return [np.sum(matrix, axis=0).tolist(), np.sum(matrix, axis=1).tolist(), np.sum(input).tolist()]
 
 
@@ -38,7 +38,7 @@ def calculate(list):
         'standard deviation': std(a, matrix),
         'max': get_max(a, matrix),
         'min': get_min(a, matrix),
-        'sum': summatory(a, matrix)
+        'sum': summary(a, matrix)
     }
 
     return calculations
