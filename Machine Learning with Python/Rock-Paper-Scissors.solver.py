@@ -1,12 +1,10 @@
 # The example function below keeps track of the opponent's history and plays whatever the opponent played two plays ago. It is not a very good player so you will need to change the code to pass the challenge.
 import random
 
-
 strategy = 0
 winners_side = {'R': 'P', 'P': 'S', 'S': 'R'}
 
-
-def player(prev_play, opponent_history=None):
+def player(prev_play, opponent_history=[]):
     global strategy
     if not prev_play:
         strategy += 1
@@ -17,8 +15,9 @@ def player(prev_play, opponent_history=None):
 
     opponent_history.append(prev_play)
 
-    if strategy == 2:
-        return quick_think_strategy(prev_play, opponent_history)
+    #Kris Strategy ### NEEDS TO FIX THIS PART KRISS IS FAILING
+    # if strategy == 3:
+    #     return quick_think_strategy(prev_play, opponent_history)
 
     return logic_strategy(prev_play, opponent_history)
 
